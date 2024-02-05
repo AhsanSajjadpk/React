@@ -1,0 +1,30 @@
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.card{
+    width: 30%;
+    margin-top: 25px;
+}
+
+body {
+    background-color: #282c34;
+    color: white;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+  }
+
+@media (max-width: 600px){
+    .card{
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    .card{
+        width: 90%;
+    }
+}
