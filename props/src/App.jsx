@@ -1,32 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
 import Card from './Components/Card';
+import Head from './Components/Head';
 
 function App() {
 
-  let val1 = "car"
-  let val2 = "Suppra"
+
+  // we can also pass obj, array arrayof objects in props
+
+  //  let obj ={
+  //   fname: "ahsan",
+  //   lname: "sajjad"
+  //  }
 
   return (
     <div className="App">
 
-      <div className='row1'>
-        <Card />
-        <Card />
-        <Card />
+      <Head />
+
+      <div className="row1">
+
+        <Card name="Supra" type="vehicle" /><Card name="vigo" type="vehicle" />
+
       </div>
 
-      <div className='row1'>
-        <Card />
-        <Card />
-        <Card />
-      </div>
 
-      <div className='row1'>
-        <Card />
-        <Card />
-        <Card />
-      </div>
+
+
+
+      {/* <Card name={obj} />
+        <Card name={obj}/> */}
+
+
+
+
     </div>
   );
 }
