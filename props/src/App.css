@@ -8,9 +8,10 @@
 
 body {
     /* background-color: #282c34; */
-    /* color: white; */
+    color: black;
     padding: 40px;
     font-family: Arial;
+    text-align: center;
     text-align: center;
   }
 
