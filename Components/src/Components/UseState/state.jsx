@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function States() {
+    // usestate
     let [tas, settas] = useState(0);
 
     const handle = () => {
