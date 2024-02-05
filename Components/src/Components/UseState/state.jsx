@@ -1,19 +1,14 @@
 import React, { useState } from "react";
 
 function States() {
-    const [tas, settas] = useState(0);
+    let [tas, settas] = useState(0);
 
     const handle = () => {
-        // Use the updater function form of setState to update based on the previous state
-      
+        
 
             settas(tas + 1);
             
  
-        // else if (a==2){
-            
-        //     settas(tas - 1);
-        // }
     };
 
     return (
