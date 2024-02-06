@@ -19,11 +19,11 @@ function App() {
 
       <div className="row1">
 
-        <Card name="Supra" type="vehicle" /><Card name="vigo" type="vehicle" />
+        <Card name="Supra" type="vehicle" />
+        
+        <Card name="vigo" type="vehicle" />
 
       </div>
-
-
 
 
 
