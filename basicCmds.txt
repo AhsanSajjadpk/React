@@ -1,0 +1,34 @@
+npm cache clean --force
+npm install -g create-react-app
+npx create-react-app my-app
+
+
+*************************
+Bootstrap with react:
+*************************
+
+Copy cdn links of css and js from bootstrap website
+paste these links in index.html file in react
+
+*************************
+Hosting on firebase
+*************************
+
+create project on firebasse
+root dir -> npm install -g firebase-tools
+cd project
+firebase login
+firebase init
+hosting deploy
+existing project
+public -> build
+no
+no
+npm run build
+firebase deploy
+
+*************************
+After any updation in project
+*************************
+
+direct run cmd only  "firebase deploy" in project folder 
