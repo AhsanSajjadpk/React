@@ -31,4 +31,4 @@ firebase deploy
 After any updation in project
 *************************
 
-direct run cmd only  "firebase deploy" in project folder 
+direct run cmd only  "firebase deploy" in project folder. 
