@@ -13,7 +13,7 @@ function App() {
   let books = [
     { id: 1, title: 'To Kill a Mockingbird', author: 'Harper Lee', pic: car },
     { id: 2, title: '1984', author: 'George Orwell', pic: car2 },
-    { id: 3, title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', pic: car3 }
+    { id: 3, title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', pic: car3 },
     { id: 3, title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', pic: car3 }
 
   ]
