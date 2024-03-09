@@ -10,7 +10,8 @@ export default function Header() {
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <Link to="/" className="flex items-center">
                         <img
-                            src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+                            // src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+                            src="https://logos.textgiraffe.com/logos/logo-name/Ahsan-designstyle-boots-m.png"
                             className="mr-3 h-12"
                             alt="Logo"
                         />
@@ -62,6 +63,16 @@ export default function Header() {
                                     }
                                 >
                                     Contact
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                to="/github" 
+                                    className={({isActive}) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? 'text-orange-700' : 'text-gray-700 '} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    }
+                                >
+                                    Github
                                 </NavLink>
                             </li>
                             

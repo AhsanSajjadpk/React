@@ -1,0 +1,11 @@
+.gits{
+    width: 700px;
+    margin: auto;
+    height: 260px;
+    /* background-color: rgb(169, 144, 144); */
+    overflow: scroll;
+}
+
+img{
+    width: 200px;
+}
