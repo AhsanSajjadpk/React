@@ -41,8 +41,9 @@ direct run cmd only  "firebase deploy" in project folder.
 08 Context API
 ***********************************
 step 1: make context folder / UserContext.js (Every context is a provider)(context is just like Global Variable)
-
-
+step 2: context folder / UserContextProvider.jsx (Wraper in this file like parent)
+step 3: App.jsx / wrap of UserContextProvider or UserContext.Provider
+step 4: components Folder
 
 
 
