@@ -32,3 +32,42 @@ After any updation in project
 *************************
 
 direct run cmd only  "firebase deploy" in project folder. 
+
+
+
+
+
+***********************************
+08 Context API
+***********************************
+step 1: make context folder / UserContext.js (Every context is a provider)(context is just like Global Variable)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
