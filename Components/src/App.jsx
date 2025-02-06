@@ -1,4 +1,8 @@
 import './App.css';
+import './Components/Home/Home'
+import Home from './Components/Home/Home';
+import Stopwatch from './Components/Stopwatch/Stopwatch';
+import UseState from './Components/UseState/state'
 
 
 function App() {
@@ -7,7 +11,9 @@ function App() {
       <header className="App-header">
 
 {/* Main code */}
-       
+
+
+       <UseState/>
 
       </header>
     </div>
